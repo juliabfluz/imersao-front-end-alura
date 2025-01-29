@@ -111,8 +111,8 @@ body{
 
 .section__playlist .section__playlist__content .text{
     padding-bottom: 14px;
-    color: #fff;
     font-family: var(--fonte);
+    color: #fff;
 }
 
 .section__playlist .section__playlist__content .title{
@@ -147,8 +147,8 @@ body{
 
 .sidebar .cookies a{
     font-size: 10px;
-    font-weight: 500;
     font-family: var(--fonte);
+    font-weight: 500;
     color: var(--cinzin);
     text-decoration: none;
     text-transform: none;
@@ -169,4 +169,45 @@ body{
     border-radius: 20px;
     font-weight: bold;
     color: #fff;
+}
+
+.ad__premium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #173729, #1AE58C);
+    font-family: var(--fonte);
+}
+.ad__premium .ad__premium__content {
+    flex-shrink: 0;
+}
+.ad__premium .ad__premium__content .title {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.ad__premium .ad__premium__content .subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.ad__premium__button button{
+    flex-shrink: 0;
+    padding: 14px 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
 }
