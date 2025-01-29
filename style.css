@@ -12,15 +12,15 @@ body{
 }
 
 .sidebar__navigation{
-    background-color: #121212;
-    border-radius:8px;
+    background-color: var(--cinzao);
+    border-radius: var(--radius);
     padding: 16px 0 0 16px;
 }
 
 .logo{
-    background: #121212;
+    background: var(--cinzao);
     display: flex;
-    border-radius: 8px ;
+    border-radius: var(--radius) ;
     padding: 16px 0 0 16px;
 }
 
@@ -38,7 +38,7 @@ body{
 }
 
 .sidebar nav ul li a{
-    color: #B3B3B3;
+    color: var(--cinzin);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
