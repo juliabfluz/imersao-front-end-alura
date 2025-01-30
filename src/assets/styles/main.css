@@ -91,3 +91,30 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--cinzao);
+  }
+  
+  .playlist-container .playlists {
+    margin: 24px;
+  }
+
+  .playlist-container .playlists .hello,
+  .playlist-container .playlists .nav{
+    color: var(--friendly-white);
+    font-weight: 700;
+  }
+  
+  .playlist-container .playlists .hello {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+
+  .playlist-container .playlists .nav {
+    font-size: 24px;
+  }
