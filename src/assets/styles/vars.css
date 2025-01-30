@@ -1,6 +1,14 @@
 :root {
+    /* --- fonts --- */
+    --font-dm-sans: "DM Sans", sans-serif;
+    --font-size-base: 14px;
+
+    /* --- colours --- */
     --cinzao: #121212;
     --cinzin: #B3B3B3;
+    --friendly-black: #0F0F0F;
+    --friendly-white: #F0F0F0;
+
+    /* --- properties ---*/
     --radius: 8px;
-    --fonte: "DM Sans", sans-serif;
   }
