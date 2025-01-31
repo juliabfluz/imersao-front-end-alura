@@ -98,23 +98,23 @@
     margin: 10px;
     border-radius: 10px;
     background-color: var(--cinzao);
-  }
+}
   
-  .playlist-container .playlists {
+.playlist-container .playlists {
     margin: 24px;
-  }
+}
 
-  .playlist-container .playlists .hello,
-  .playlist-container .playlists .nav{
+.playlist-container .playlists #hello,
+.playlist-container .playlists .nav{
     color: var(--friendly-white);
     font-weight: 700;
-  }
+}
   
-  .playlist-container .playlists .hello {
+.playlist-container .playlists #hello {
     font-size: 32px;
     margin-bottom: 48px;
-  }
+}
 
-  .playlist-container .playlists .nav {
+.playlist-container .playlists .nav {
     font-size: 24px;
-  }
+}
